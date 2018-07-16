@@ -1,30 +1,22 @@
 # NoteBook-app-with-corona-SDK
-Creating a simple app that takes notes with corona SDK
+A note taking app built with Corona SDK.
 
-Note: This was the first app I ever built!
-
-This app is built for learning purposes, a notebook app is a good way to learn programming and mobile
-application development beacuse the elements involved include: querying an SQL database, creating a frontend
-for the database (ie. via listview), and implementing tools (user friendly tools) to manipulate data in the database
+This app was built to teach myself mobile application development. Some of the skills I learned while working on it were querying a database using SQL, creating a frontend for the database via a ListView, and implementing user friendly tools to manipulate data.
 
 Notes:
--corona sdk does not provide us with native mobile UI, so a lot of work went into trying to make the UI
-look usable
 
-- Although the concept of a note-taking app is simple, there is alot of additional functionalities that can
-be built on top of this concept (which can make this app very complex, ie. automatically creating events from body message).
+- Corona SDK does not provide a native mobile UI. A lot of work went into making a user friendly UI.
 
-- The biggest issue I faced was dealing with apostrophes when storing data, the fix was using escape characters
-to format apostrophes
+- There a lot of additional functionalties that can be added to the basic note app concept like automatically creating events from the body message.
 
-- There is very little motivation maintaining/working on this app since there are tonnes of note taking apps out there,
-but it has been a great gateway app
+- The biggest issue faced while developing this app was storing string data that contained apostrophes. The fix was to escape the apostrophe characters before saving the strings to the database.
 
+- Since there are many note apps available, and the primary purpose was to teach myself programming, there is little to none active development on this app.
 
 Compiling and Testing:
 
-  - This game is built on Corona SDK, you may download it at: https://coronalabs.com/
-  - If you are using mac with latest update, there may be some issues. You may want to check out this link: https://coronalabs.com/blog/2014/09/23/os-x-mavericks-10-9-5-and-corona-sdk/
+  - This app is built on Corona SDK, which can be downloaded at: https://coronalabs.com/
+  - There may be some issues on MacOS with the latest version. To read more, visit : https://coronalabs.com/blog/2014/09/23/os-x-mavericks-10-9-5-and-corona-sdk/
 
 
 
